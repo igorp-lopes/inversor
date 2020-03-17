@@ -23,3 +23,13 @@ int main() {
   return 0;
 
 }
+
+/* Função que retorna o tamanho da string */
+int string_length(char str[]) {
+   int size = 0;
+
+   while( str[size] != '\0') /* Iteramos pela string até alcançarmos o seu caractere de fim */
+      size ++;
+
+   return size;	
+}
